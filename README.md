@@ -22,13 +22,11 @@
 
 
 
-
-
 <table border="0" cellpadding="3" cellspacing="0" >
 
 <tr>
 
-  <th  scope="col">Type (Retrun)</th>
+  <th  scope="col">Type (Return)</th>
 
   <th  scope="col">Method and Description</th>
 
@@ -42,7 +40,7 @@
 
   <td ><code>getVersionBits()</code>
 
-    <div class="block">Método para retorno da Arquitetura (32 ou 64 bits)</div>
+    <div>Método para retorno da Arquitetura (32 ou 64 bits)</div>
 
   </td>
 
@@ -54,9 +52,9 @@
 
 	<td><code>java.lang.String</code></td>
 
-	<td><code><span class="memberNameLink">getVersionName</span>()</code>
+	<td><code><span>getVersionName</span>()</code>
 
-	<div class="block">Método para retorno do Nome da versão</div>
+	<div>Método para retorno do Nome da versão</div>
 
 	</td>
 
@@ -68,9 +66,9 @@
 
 	<td><code>int</code></td>
 
-	<td><code><span class="memberNameLink">getVersionNum</span>()</code>
+	<td><code><span>getVersionNum</span>()</code>
 
-	<div class="block">Método para retorno do Número da versão</div>
+	<div>Método para retorno do Número da versão</div>
 
 	</td>
 
@@ -82,9 +80,9 @@
 
 	<td><code>java.lang.Boolean</code></td>
 
-	<td><code><span class="memberNameLink">isOk</span>()</code>
+	<td><code><span>isOk</span>()</code>
 
-	<div class="block">Método para retorno de Execução do construtor bem sucedida</div>
+	<div>Método para retorno de Execução do construtor bem sucedida</div>
 
 	</td>
 
@@ -96,9 +94,9 @@
 
 	<td><code>static void</code></td>
 
-	<td><code><span class="memberNameLink">main</span>(java.lang.String[]&nbsp;args)</code>
+	<td><code><span>main</span>(java.lang.String[]&nbsp;args)</code>
 
-	<div class="block">Inicializador para console e exemplo de uso</div>
+	<div>Inicializador para console e exemplo de uso</div>
 
 	</td>
 
