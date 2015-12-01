@@ -105,3 +105,5 @@
 
 
 </table>
+
+Clique <a href="https://support.office.com/pt-br/article/Qual-vers%C3%A3o-do-Office-estou-usando-932788b8-a3ce-44bf-bb09-e334518b8b19">aqui</a> saber a versão manualmente
