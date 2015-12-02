@@ -9,8 +9,8 @@
 
 package br.edu.ifes.bsi.teie;
 
-import com.sun.jna.platform.win32.Advapi32Util;
 import com.sun.jna.Platform;
+import com.sun.jna.platform.win32.Advapi32Util;
 import static com.sun.jna.platform.win32.WinReg.HKEY_CLASSES_ROOT;
 import java.io.File;
 import java.io.ByteArrayOutputStream;
@@ -97,10 +97,13 @@ public class OfficeVersion {
 					word = null;
 				}
 			}
+			else
+				System.out.println( "\nOcorreu um Erro ao obter o caminho do Office.\n");
+				
 		}
 		catch(Exception e)
 		{
-			System.out.println( "\nOcorreu um Erro ao obter versao do Office\n");
+			System.out.println( "\nOcorreu um Erro ao obter versao do Office.\n");
 		}
 
 	}
