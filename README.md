@@ -38,7 +38,7 @@
 
   <td ><code>int</code></td>
 
-  <td ><code>getVersionBits()</code>
+  <td ><code><b>getVersionBits</b>()</code>
 
     <div>Método para retorno da Arquitetura (32 ou 64 bits)</div>
 
@@ -52,7 +52,7 @@
 
 	<td><code>java.lang.String</code></td>
 
-	<td><code><span>getVersionName</span>()</code>
+	<td><code><span><b>getVersionName</b></span>()</code>
 
 	<div>Método para retorno do Nome da versão</div>
 
@@ -66,7 +66,7 @@
 
 	<td><code>int</code></td>
 
-	<td><code><span>getVersionNum</span>()</code>
+	<td><code><span><b>getVersionNum</b></span>()</code>
 
 	<div>Método para retorno do Número da versão</div>
 
@@ -80,7 +80,7 @@
 
 	<td><code>java.lang.Boolean</code></td>
 
-	<td><code><span>isOk</span>()</code>
+	<td><code><span><b>isOk</b></span>()</code>
 
 	<div>Método para retorno de Execução do construtor bem sucedida</div>
 
@@ -94,7 +94,7 @@
 
 	<td><code>static void</code></td>
 
-	<td><code><span>main</span>(java.lang.String[]&nbsp;args)</code>
+	<td><code><span><b>main</b></span>(java.lang.String[]&nbsp;args)</code>
 
 	<div>Inicializador para console e exemplo de uso</div>
 
