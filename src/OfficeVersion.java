@@ -122,7 +122,9 @@ public class OfficeVersion {
 				return false;
 			}
 			ByteArrayOutputStream out = new ByteArrayOutputStream();  
-			FileInputStream in = new FileInputStream(arq);  
+			FileInputStream in = new FileInputStream(arq);
+			// Otimização
+			in.skip(arq.length()-13000);
 			int b;  
 			while((b = in.read())>-1){  
 				out.write(b);
